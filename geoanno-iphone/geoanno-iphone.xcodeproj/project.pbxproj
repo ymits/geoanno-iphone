@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C061B4AA19D940B900FC195F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C061B4A919D940B900FC195F /* Foundation.framework */; };
+		C061B4AC19D940B900FC195F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C061B4AB19D940B900FC195F /* CoreGraphics.framework */; };
+		C061B4AE19D940B900FC195F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C061B4AD19D940B900FC195F /* UIKit.framework */; };
+		C061B4B419D940B900FC195F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C061B4B219D940B900FC195F /* InfoPlist.strings */; };
+		C061B4B619D940B900FC195F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C061B4B519D940B900FC195F /* main.m */; };
+		C061B4BA19D940B900FC195F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C061B4B919D940B900FC195F /* AppDelegate.m */; };
+		C061B4BD19D940B900FC195F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C061B4BB19D940B900FC195F /* Main.storyboard */; };
+		C061B4C019D940B900FC195F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C061B4BF19D940B900FC195F /* ViewController.m */; };
+		C061B4C219D940B900FC195F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C061B4C119D940B900FC195F /* Images.xcassets */; };
+		C061B4C919D940B900FC195F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C061B4C819D940B900FC195F /* XCTest.framework */; };
+		C061B4CA19D940B900FC195F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C061B4A919D940B900FC195F /* Foundation.framework */; };
+		C061B4CB19D940B900FC195F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C061B4AD19D940B900FC195F /* UIKit.framework */; };
+		C061B4D319D940B900FC195F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C061B4D119D940B900FC195F /* InfoPlist.strings */; };
+		C061B4D519D940B900FC195F /* geoanno_iphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C061B4D419D940B900FC195F /* geoanno_iphoneTests.m */; };
+		C061B4DF19D9417B00FC195F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C061B4DE19D9417B00FC195F /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C061B4CC19D940B900FC195F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C061B49E19D940B800FC195F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C061B4A519D940B900FC195F;
+			remoteInfo = "geoanno-iphone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C061B4A619D940B900FC195F /* geoanno-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geoanno-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C061B4A919D940B900FC195F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C061B4AB19D940B900FC195F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C061B4AD19D940B900FC195F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C061B4B119D940B900FC195F /* geoanno-iphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geoanno-iphone-Info.plist"; sourceTree = "<group>"; };
+		C061B4B319D940B900FC195F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C061B4B519D940B900FC195F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C061B4B719D940B900FC195F /* geoanno-iphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "geoanno-iphone-Prefix.pch"; sourceTree = "<group>"; };
+		C061B4B819D940B900FC195F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C061B4B919D940B900FC195F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C061B4BC19D940B900FC195F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C061B4BE19D940B900FC195F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C061B4BF19D940B900FC195F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C061B4C119D940B900FC195F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C061B4C719D940B900FC195F /* geoanno-iphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geoanno-iphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C061B4C819D940B900FC195F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C061B4D019D940B900FC195F /* geoanno-iphoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geoanno-iphoneTests-Info.plist"; sourceTree = "<group>"; };
+		C061B4D219D940B900FC195F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C061B4D419D940B900FC195F /* geoanno_iphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = geoanno_iphoneTests.m; sourceTree = "<group>"; };
+		C061B4DE19D9417B00FC195F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C061B4A319D940B900FC195F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C061B4DF19D9417B00FC195F /* CoreLocation.framework in Frameworks */,
+				C061B4AC19D940B900FC195F /* CoreGraphics.framework in Frameworks */,
+				C061B4AE19D940B900FC195F /* UIKit.framework in Frameworks */,
+				C061B4AA19D940B900FC195F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C061B4C419D940B900FC195F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C061B4C919D940B900FC195F /* XCTest.framework in Frameworks */,
+				C061B4CB19D940B900FC195F /* UIKit.framework in Frameworks */,
+				C061B4CA19D940B900FC195F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C061B49D19D940B800FC195F = {
+			isa = PBXGroup;
+			children = (
+				C061B4AF19D940B900FC195F /* geoanno-iphone */,
+				C061B4CE19D940B900FC195F /* geoanno-iphoneTests */,
+				C061B4A819D940B900FC195F /* Frameworks */,
+				C061B4A719D940B900FC195F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C061B4A719D940B900FC195F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C061B4A619D940B900FC195F /* geoanno-iphone.app */,
+				C061B4C719D940B900FC195F /* geoanno-iphoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C061B4A819D940B900FC195F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C061B4DE19D9417B00FC195F /* CoreLocation.framework */,
+				C061B4A919D940B900FC195F /* Foundation.framework */,
+				C061B4AB19D940B900FC195F /* CoreGraphics.framework */,
+				C061B4AD19D940B900FC195F /* UIKit.framework */,
+				C061B4C819D940B900FC195F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C061B4AF19D940B900FC195F /* geoanno-iphone */ = {
+			isa = PBXGroup;
+			children = (
+				C061B4B819D940B900FC195F /* AppDelegate.h */,
+				C061B4B919D940B900FC195F /* AppDelegate.m */,
+				C061B4BB19D940B900FC195F /* Main.storyboard */,
+				C061B4BE19D940B900FC195F /* ViewController.h */,
+				C061B4BF19D940B900FC195F /* ViewController.m */,
+				C061B4C119D940B900FC195F /* Images.xcassets */,
+				C061B4B019D940B900FC195F /* Supporting Files */,
+			);
+			path = "geoanno-iphone";
+			sourceTree = "<group>";
+		};
+		C061B4B019D940B900FC195F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C061B4B119D940B900FC195F /* geoanno-iphone-Info.plist */,
+				C061B4B219D940B900FC195F /* InfoPlist.strings */,
+				C061B4B519D940B900FC195F /* main.m */,
+				C061B4B719D940B900FC195F /* geoanno-iphone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C061B4CE19D940B900FC195F /* geoanno-iphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C061B4D419D940B900FC195F /* geoanno_iphoneTests.m */,
+				C061B4CF19D940B900FC195F /* Supporting Files */,
+			);
+			path = "geoanno-iphoneTests";
+			sourceTree = "<group>";
+		};
+		C061B4CF19D940B900FC195F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C061B4D019D940B900FC195F /* geoanno-iphoneTests-Info.plist */,
+				C061B4D119D940B900FC195F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C061B4A519D940B900FC195F /* geoanno-iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C061B4D819D940B900FC195F /* Build configuration list for PBXNativeTarget "geoanno-iphone" */;
+			buildPhases = (
+				C061B4A219D940B900FC195F /* Sources */,
+				C061B4A319D940B900FC195F /* Frameworks */,
+				C061B4A419D940B900FC195F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geoanno-iphone";
+			productName = "geoanno-iphone";
+			productReference = C061B4A619D940B900FC195F /* geoanno-iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C061B4C619D940B900FC195F /* geoanno-iphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C061B4DB19D940B900FC195F /* Build configuration list for PBXNativeTarget "geoanno-iphoneTests" */;
+			buildPhases = (
+				C061B4C319D940B900FC195F /* Sources */,
+				C061B4C419D940B900FC195F /* Frameworks */,
+				C061B4C519D940B900FC195F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C061B4CD19D940B900FC195F /* PBXTargetDependency */,
+			);
+			name = "geoanno-iphoneTests";
+			productName = "geoanno-iphoneTests";
+			productReference = C061B4C719D940B900FC195F /* geoanno-iphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C061B49E19D940B800FC195F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					C061B4C619D940B900FC195F = {
+						TestTargetID = C061B4A519D940B900FC195F;
+					};
+				};
+			};
+			buildConfigurationList = C061B4A119D940B900FC195F /* Build configuration list for PBXProject "geoanno-iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C061B49D19D940B800FC195F;
+			productRefGroup = C061B4A719D940B900FC195F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C061B4A519D940B900FC195F /* geoanno-iphone */,
+				C061B4C619D940B900FC195F /* geoanno-iphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C061B4A419D940B900FC195F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C061B4C219D940B900FC195F /* Images.xcassets in Resources */,
+				C061B4B419D940B900FC195F /* InfoPlist.strings in Resources */,
+				C061B4BD19D940B900FC195F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C061B4C519D940B900FC195F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C061B4D319D940B900FC195F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C061B4A219D940B900FC195F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C061B4C019D940B900FC195F /* ViewController.m in Sources */,
+				C061B4BA19D940B900FC195F /* AppDelegate.m in Sources */,
+				C061B4B619D940B900FC195F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C061B4C319D940B900FC195F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C061B4D519D940B900FC195F /* geoanno_iphoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C061B4CD19D940B900FC195F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C061B4A519D940B900FC195F /* geoanno-iphone */;
+			targetProxy = C061B4CC19D940B900FC195F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C061B4B219D940B900FC195F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C061B4B319D940B900FC195F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C061B4BB19D940B900FC195F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C061B4BC19D940B900FC195F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C061B4D119D940B900FC195F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C061B4D219D940B900FC195F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C061B4D619D940B900FC195F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C061B4D719D940B900FC195F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C061B4D919D940B900FC195F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geoanno-iphone/geoanno-iphone-Prefix.pch";
+				INFOPLIST_FILE = "geoanno-iphone/geoanno-iphone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C061B4DA19D940B900FC195F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geoanno-iphone/geoanno-iphone-Prefix.pch";
+				INFOPLIST_FILE = "geoanno-iphone/geoanno-iphone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C061B4DC19D940B900FC195F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/geoanno-iphone.app/geoanno-iphone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geoanno-iphone/geoanno-iphone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "geoanno-iphoneTests/geoanno-iphoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C061B4DD19D940B900FC195F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/geoanno-iphone.app/geoanno-iphone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geoanno-iphone/geoanno-iphone-Prefix.pch";
+				INFOPLIST_FILE = "geoanno-iphoneTests/geoanno-iphoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C061B4A119D940B900FC195F /* Build configuration list for PBXProject "geoanno-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C061B4D619D940B900FC195F /* Debug */,
+				C061B4D719D940B900FC195F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C061B4D819D940B900FC195F /* Build configuration list for PBXNativeTarget "geoanno-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C061B4D919D940B900FC195F /* Debug */,
+				C061B4DA19D940B900FC195F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C061B4DB19D940B900FC195F /* Build configuration list for PBXNativeTarget "geoanno-iphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C061B4DC19D940B900FC195F /* Debug */,
+				C061B4DD19D940B900FC195F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C061B49E19D940B800FC195F /* Project object */;
+}
