@@ -74,7 +74,7 @@
     NSMutableDictionary *jsonObj = [[NSMutableDictionary alloc] init];
     [jsonObj setObject:[self getUUID] forKey:@"accountId"];
     [jsonObj setObject:_nameText.text forKey:@"name"];
-    [jsonObj setObject:[NSNumber numberWithLong:[[location timestamp] timeIntervalSince1970]] forKey:@"updateTime"];
+    [jsonObj setObject:[NSNumber numberWithDouble:[[location timestamp] timeIntervalSince1970] * 1000] forKey:@"updateTime"];
     
     NSMutableDictionary *position = [[NSMutableDictionary alloc] init];
     [position setObject:[NSNumber numberWithDouble:[location coordinate].latitude] forKey:@"latitude"];

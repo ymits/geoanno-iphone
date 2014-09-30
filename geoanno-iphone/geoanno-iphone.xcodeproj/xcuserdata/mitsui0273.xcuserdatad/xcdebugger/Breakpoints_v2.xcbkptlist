@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "geoanno-iphone/ViewController.m"
-            timestampString = "433676451.385513"
+            timestampString = "433744996.050032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "-postLocation:"
             landmarkType = "5">
          </BreakpointContent>

@@ -380,11 +380,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hideki Kaneko (C7ERK2RUSY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "geoanno-iphone/geoanno-iphone-Prefix.pch";
 				INFOPLIST_FILE = "geoanno-iphone/geoanno-iphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fb46f8c-6263-4c78-92e6-164c23c81d72";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,11 +396,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hideki Kaneko (C7ERK2RUSY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "geoanno-iphone/geoanno-iphone-Prefix.pch";
 				INFOPLIST_FILE = "geoanno-iphone/geoanno-iphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fb46f8c-6263-4c78-92e6-164c23c81d72";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
